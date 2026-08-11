@@ -1,6 +1,8 @@
-preço_sem_desconto = float(input("Digite o valor do produto: "))
+preco = float(input("Digite o valor que queira calcular: "))
+desconto = float(input("Digite o valor de desconto que queira calcular: "))
 
-preço_com_desconto = preço_sem_desconto * 0.1
+valor_desconto = preco * (desconto/100)
 
-print(f"Valor com desconto: R$ {preço_com_desconto:.2f}")
-print(f"Sem Desconto: R$ {preço_sem_desconto:.2f}")
+total = preco - valor_desconto
+
+print(total)
