@@ -1,0 +1,8 @@
+celcius = float(input("Digite a temperatura em Celcius: "))
+
+fahrenheit = (celcius * 1.8) + 32
+kelvin = celcius + 273.15
+
+print(f"Celcius: {celcius}\n"
+      f"Fahrenheit: {fahrenheit}\n"
+      f"Kelvin: {kelvin}")

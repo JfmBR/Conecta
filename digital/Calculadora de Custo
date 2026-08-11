@@ -1,0 +1,9 @@
+preco = float(input("Digite o valor: "))
+quantidade = int(input("Digite a quantidade: "))
+imposto = 0.12 * preco
+subtotal = preco * quantidade
+total = subtotal + imposto
+
+print (f"Valor sem imposto: {subtotal}\n"
+       f"valor com imposto: {total}"
+       )
