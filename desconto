@@ -1,0 +1,6 @@
+preço_sem_desconto = float(input("Digite o valor do produto: "))
+
+preço_com_desconto = preço_sem_desconto * 0.1
+
+print(f"Valor com desconto: R$ {preço_com_desconto:.2f}")
+print(f"Sem Desconto: R$ {preço_sem_desconto:.2f}")
