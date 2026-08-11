@@ -5,4 +5,8 @@ valor_desconto = preco * (desconto/100)
 
 total = preco - valor_desconto
 
-print(total)
+#print(total)
+
+a = "ab" * 3
+print(a)
+print("ab" * 3)
