@@ -1,0 +1,9 @@
+data,vendedor,regiao,produto,valor
+2025-01-05,Ana,Sul,Notebook,3500.0
+2025-01-12,Beto,Norte,Mouse,45.0
+2025-02-03,Ana,Sul,Monitor,890.0
+2025-02-20,Carla,Norte,Teclado,120.0
+2025-02-20,Carla,Norte,Teclado,120.0
+2025-03-01,Beto,Sul,Notebook,3200.0
+2025-03-15,Ana,Sul,Mouse,42.0
+2025-03-20,Beto,Norte,Monitor,950.0
